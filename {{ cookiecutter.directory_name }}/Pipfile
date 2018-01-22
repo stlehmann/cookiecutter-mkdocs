@@ -1,0 +1,16 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+mkdocs = "*"
+python-markdown-math = "*"
+markdown-lightbox = {git = "git@github.com:MrLeeh/markdown-lightbox.git", editable = true}
+mkdocs-rtd-dropdown = {git = "https://github.com/stlehmann/mkdocs-rtd-dropdown.git", editable = true}
+
+
+[dev-packages]

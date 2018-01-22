@@ -1,0 +1,12 @@
+site_name: {{ cookiecutter.site_name }}
+theme:
+  name: readthedocs
+  custom_dir: mkdocs-rtd-lightbox
+
+markdown_extensions:
+  - math
+  - extra
+  - lightbox
+
+extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML', 'mathjaxhelper.js']
+
