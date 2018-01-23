@@ -1,12 +1,17 @@
 site_name: {{ cookiecutter.site_name }}
-theme:
-  name: rtd-dropdown
-  custom_dir: mkdocs-rtd-lightbox
 
+theme: rtd-dropdown
+use_directory_urls: false
+strict: true
 markdown_extensions:
-  - math
   - extra
   - lightbox
-
-extra_javascript: ['https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML', 'mathjaxhelper.js']
+  - math:
+      enable_dollar_delimiter: True
+exta_css:
+  - css/custom.css
+  - css/lightbox.min.css
+extra_javascript:
+  - js/lightbox.min.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
 

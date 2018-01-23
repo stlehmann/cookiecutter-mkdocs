@@ -1,0 +1,11 @@
+/*
+* @Author: Stefan Lehmann
+* @Date:   2017-11-23 13:07:57
+* @Last Modified by:   Stefan Lehmann
+* @Last Modified time: 2017-11-23 13:19:43
+*/
+
+.thumbnail {
+  max-width: 200px !important;
+  max-height: 200px;
+}
