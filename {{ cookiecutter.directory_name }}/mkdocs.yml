@@ -8,7 +8,7 @@ markdown_extensions:
   - lightbox
   - math:
       enable_dollar_delimiter: True
-exta_css:
+extra_css:
   - css/custom.css
   - css/lightbox.min.css
 extra_javascript:
