@@ -13,5 +13,5 @@ extra_css:
   - css/lightbox.min.css
 extra_javascript:
   - js/lightbox.min.js
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML
 
